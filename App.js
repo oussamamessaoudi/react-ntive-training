@@ -8,13 +8,13 @@
 
 import React from 'react';
 import {View} from 'react-native';
-import PizzaTranslator from './source/input/PizzaTranslator';
+import Touchables from './source/touches/Touchables';
 
 
 const App = () => {
     return (
         <View style={{flex: 1}}>
-            <PizzaTranslator/>
+            <Touchables/>
         </View>
     );
 };
