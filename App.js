@@ -8,13 +8,13 @@
 
 import React from 'react';
 import {View} from 'react-native';
-import AlignItemsBasics from './source/layout/AlignItemsBasics';
+import PizzaTranslator from './source/input/PizzaTranslator';
 
 
 const App = () => {
     return (
         <View style={{flex: 1}}>
-            <AlignItemsBasics/>
+            <PizzaTranslator/>
         </View>
     );
 };
