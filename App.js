@@ -8,13 +8,13 @@
 
 import React from 'react';
 import {View} from 'react-native';
-import Touchables from './source/touches/Touchables';
+import IScrolledDownAndWhatHappenedNextShockedMe from './source/ScrollView/IScrolledDownAndWhatHappenedNextShockedMe';
 
 
 const App = () => {
     return (
         <View style={{flex: 1}}>
-            <Touchables/>
+            <IScrolledDownAndWhatHappenedNextShockedMe/>
         </View>
     );
 };
