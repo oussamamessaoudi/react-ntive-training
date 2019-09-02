@@ -8,13 +8,13 @@
 
 import React from 'react';
 import {View} from 'react-native';
-import IScrolledDownAndWhatHappenedNextShockedMe from './source/ScrollView/IScrolledDownAndWhatHappenedNextShockedMe';
+import SectionListBasics from './source/flatList/SectionListBasics';
 
 
 const App = () => {
     return (
         <View style={{flex: 1}}>
-            <IScrolledDownAndWhatHappenedNextShockedMe/>
+            <SectionListBasics/>
         </View>
     );
 };
