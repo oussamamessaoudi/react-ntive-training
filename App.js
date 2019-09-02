@@ -6,18 +6,13 @@
  * @flow
  */
 
-import React, {Fragment} from 'react';
-import {SafeAreaView, StatusBar, Text} from 'react-native';
+import React from 'react';
+import HelloWorldApp from './source/HelloWorldApp';
 
 
 const App = () => {
     return (
-        <Fragment>
-            <StatusBar barStyle="dark-content"/>
-            <SafeAreaView>
-                <Text>Hello World</Text>
-            </SafeAreaView>
-        </Fragment>
+        <HelloWorldApp/>
     );
 };
 
