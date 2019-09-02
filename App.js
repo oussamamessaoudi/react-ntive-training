@@ -7,12 +7,12 @@
  */
 
 import React from 'react';
-import LotsOfGreetings from './source/props/Greeting';
+import BlinkApp from './source/state/Blink';
 
 
 const App = () => {
     return (
-        <LotsOfGreetings/>
+        <BlinkApp/>
     );
 };
 
