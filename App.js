@@ -7,12 +7,15 @@
  */
 
 import React from 'react';
-import BlinkApp from './source/state/Blink';
+import {View} from 'react-native';
+import FlexDimensionsBasics from './source/dimensions/FlexDimensionsBasics';
 
 
 const App = () => {
     return (
-        <BlinkApp/>
+        <View style={{flex: 1}}>
+            <FlexDimensionsBasics/>
+        </View>
     );
 };
 
