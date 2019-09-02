@@ -8,13 +8,13 @@
 
 import React from 'react';
 import {View} from 'react-native';
-import SectionListBasics from './source/flatList/SectionListBasics';
+import FetchExample from './source/Fetch/FetchExample';
 
 
 const App = () => {
     return (
         <View style={{flex: 1}}>
-            <SectionListBasics/>
+            <FetchExample/>
         </View>
     );
 };
