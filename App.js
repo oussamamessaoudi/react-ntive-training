@@ -7,12 +7,12 @@
  */
 
 import React from 'react';
-import HelloWorldApp from './source/HelloWorldApp';
+import LotsOfGreetings from './source/props/Greeting';
 
 
 const App = () => {
     return (
-        <HelloWorldApp/>
+        <LotsOfGreetings/>
     );
 };
 
