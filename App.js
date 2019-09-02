@@ -8,13 +8,13 @@
 
 import React from 'react';
 import {View} from 'react-native';
-import FlexDimensionsBasics from './source/dimensions/FlexDimensionsBasics';
+import AlignItemsBasics from './source/layout/AlignItemsBasics';
 
 
 const App = () => {
     return (
         <View style={{flex: 1}}>
-            <FlexDimensionsBasics/>
+            <AlignItemsBasics/>
         </View>
     );
 };
